@@ -2,4 +2,11 @@ notebook
 ipywidgets
 tqdm
 python-dotenv
+datetime
+cassandra-driver
+pandas
+sqlalchemy
+mysql-connector-python
+pymysql
+scikit-learn
 -e .
