@@ -26,4 +26,17 @@ class ModelTrainerArtifact:
     trained_model_file_path: str
     r2_score: float
 
+@dataclass
+class ModelEvaluationArtifact:
+    is_model_accepted: bool
+    improved_accuracy: float
+    best_model_path: str
+    trained_model_path: str
+    train_model_r2_score: float
+    best_model_r2_score: float
+   
 
+@dataclass
+class ModelPusherArtifact:
+    saved_model_path: str
+    model_file_path: str
