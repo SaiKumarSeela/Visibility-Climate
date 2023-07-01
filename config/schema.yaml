@@ -1,0 +1,28 @@
+columns:
+- DATE: text
+- VISIBILITY: float
+- DRYBULBTEMPF: int
+- WETBULBTEMPF: int
+- DewPointTempF: int
+- RelativeHumidity: int
+- WindSpeed: int
+- WindDirection: int
+- StationPressure: float
+- SeaLevelPressure: float
+- Precip: float
+numerical_columns:
+- VISIBILITY
+- DRYBULBTEMPF
+- WETBULBTEMPF
+- DewPointTempF
+- RelativeHumidity
+- WindSpeed
+- WindDirection
+- StationPressure
+- SeaLevelPressure
+- Precip
+drop_columns:
+- WETBULBTEMPF
+- DewPointTempF
+- StationPressure
+- Precip

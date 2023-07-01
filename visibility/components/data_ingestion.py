@@ -43,8 +43,9 @@ class DataIngestion:
 
         df = self.get_data_from_database()
         train_file_path,test_file_path = self.split_into_train_and_test(df)
-        return DataIngestionArtifact(
+        dataingestion_artifact = DataIngestionArtifact(
             feature_store_file_path= self.feature_store_file_path,
             train_file_path=train_file_path,
             test_file_path=test_file_path
         )
+        return dataingestion_artifact
