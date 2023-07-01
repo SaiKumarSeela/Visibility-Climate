@@ -9,4 +9,9 @@ sqlalchemy
 mysql-connector-python
 pymysql
 scikit-learn
+numpy
+dill
+scipy
+imblearn
+xgboost
 -e .
